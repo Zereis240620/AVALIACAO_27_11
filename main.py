@@ -13,14 +13,14 @@ def menu() -> int:
 def printCabecalho(text):
   print(36*"=")
   print(text)
-  print(36*"=","\n")
-  print("UTILIZE LETRAS MAIÚSCULAS\n")
+  print(36*"=","\n")  
 
 def percorrePalavra():
   # Limpando a tela
   os.system("cls" if os.name == 'nt' else "clear")
   # exibindo cabeçalho
   printCabecalho("Percorrer Palavra - Obter a Posição")
+  print("UTILIZE LETRAS MAIÚSCULAS\n")
 
   # Recebendo a palava e a assegurando que vai ser maiuscula caso o usuário digite minuscula
   palavra = input("Digite uma única palavra: ").upper()
