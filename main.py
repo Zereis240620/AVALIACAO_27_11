@@ -22,7 +22,7 @@ def percorrePalavra():
   # exibindo cabeçalho
   printCabecalho("Percorrer Palavra - Obter a Posição")
 
-  # Recebendo a palava
+  # Recebendo a palava e a assegurando que vai ser maiuscula caso o usuário digite minuscula
   palavra = input("Digite uma única palavra: ").upper()
   print("\n")
 
